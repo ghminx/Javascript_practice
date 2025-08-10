@@ -22,8 +22,10 @@ npm run update
 
 
 <!-- AUTO-GENERATED START -->
-> 마지막 갱신: 2025-08-10 14:24:23
+> 마지막 업데이트: 2025-08-10 16:47:17
 
-### 업데이트 내역
-
+### 1. Basic
+- [1. hello_world.js](1. Basic/1. hello_world.js)
+- [2. Variable.js](1. Basic/2. Variable.js)
+- [3. naming_conventions.js](1. Basic/3. naming_conventions.js)
 <!-- AUTO-GENERATED END -->

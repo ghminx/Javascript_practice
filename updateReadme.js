@@ -42,7 +42,7 @@ function buildAutoSection(groups) {
   const now = new Date().toISOString().slice(0, 19).replace("T", " ");
 
   let md = "";
-  md += `> 마지막 갱신: ${now}\n\n`;
+  md += `> 마지막 업데이트: ${now}\n\n`;
 
   if (dirs.length > 1) {
     md += `### 목차\n`;
@@ -96,5 +96,5 @@ function ensureReadme(content) {
   );
 
   fs.writeFileSync(README, replaced);
-  console.log("✅ README.md 자동 갱신 완료 (마커 구간만 업데이트)");
+  console.log("✅ README.md 업데이트 완료");
 })();
