@@ -4,7 +4,8 @@
   "description": "",
   "main": "자바스크립트_기초.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "node updateReadme.js"
   },
   "keywords": [],
   "author": "",
