@@ -22,10 +22,12 @@ npm run update
 
 
 <!-- AUTO-GENERATED START -->
-> 마지막 업데이트: 2025-08-10 16:47:17
+> 마지막 업데이트: 2025-08-11 04:08:28
 
 ### 1. Basic
 - [1. hello_world.js](1. Basic/1. hello_world.js)
 - [2. Variable.js](1. Basic/2. Variable.js)
 - [3. naming_conventions.js](1. Basic/3. naming_conventions.js)
+- [4-1. DataType.js](1. Basic/4-1. DataType.js)
+- [4. DataType.js](1. Basic/4. DataType.js)
 <!-- AUTO-GENERATED END -->
