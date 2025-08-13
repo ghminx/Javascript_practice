@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>할일 관리 앱</title>
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+    }
+
+    .app-container {
+        background: white;
+        border-radius: 10px;   /* 모서리 둥글게 */
+        padding: 30px;         /* 내부 여백*/
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* 그림자색 */
+    }
+
+    .input-section {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    #todo {                    /* #은 id 선택 */
+        /*flex: 1;  이걸 하면 유연하게 남은공간 채워짐*/
+        width: 400px;
+        padding: 12px;
+        border:2px solid #ddd;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    #addbtn {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px
+    }
+
+</style>
+</head>
+<body>
+    <div class="app-container">
+        <h1>📝 나만의 할 일 관리</h1>
+        <div class = 'input-section'>
+            <input type="text" id ='todo' placeholder="할일을 입력하세요">
+            <button id="addbtn">추가</button>
+        </div>
+        <div id="todoList"></div>
+        <div id="stats"></div>
+    </div>
+    <script src="todo.js" defer></script>
+</body>
+</html>

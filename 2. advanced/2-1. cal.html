@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>간단한 계산기</h1>
+
+    <div id="output"></div>
+
+    <script>
+        function add(a, b) {
+            let result = a + b;
+            console.log(`${a} + ${b} = ${result}`);
+            document.getElementById("output").innerHTML += `${a} + ${b} = ${result}<br>`;
+            return result;
+        }
+
+        // 호출 
+        add(3, 3)
+        add(7, 4)
+    </script>
+    
+</body>
+</html>
