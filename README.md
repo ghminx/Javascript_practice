@@ -22,7 +22,12 @@ npm run update
 
 
 <!-- AUTO-GENERATED START -->
-> 마지막 업데이트: 2025-08-13 02:28:06
+> 마지막 업데이트: 2025-08-13 08:43:11
+
+### 목차
+- [1. Basic](#1--Basic)
+- [2. advanced](#2--advanced)
+- [project\todolist](#project\todolist)
 
 ### 1. Basic
 - [1. hello_world.js](1. Basic/1. hello_world.js)
@@ -38,4 +43,15 @@ npm run update
 - [9. object.js](1. Basic/9. object.js)
 - [10. Scope.js](1. Basic/10. Scope.js)
 - [11. error_type.js](1. Basic/11. error_type.js)
+
+### 2. advanced
+- [1. function_basic.js](2. advanced/1. function_basic.js)
+- [2-1. cal.html](2. advanced/2-1. cal.html)
+- [2. function_parameter_argument.js](2. advanced/2. function_parameter_argument.js)
+- [3. return.js](2. advanced/3. return.js)
+- [4. Arrow_Function.js](2. advanced/4. Arrow_Function.js)
+
+### project\todolist
+- [index.html](project/todolist/index.html)
+- [todo.js](project/todolist/todo.js)
 <!-- AUTO-GENERATED END -->
